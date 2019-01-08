@@ -25,7 +25,7 @@ pacote “resource”, estas trabalham com as requisições HTML, como GET, POST
 PUT e DELETE.
 
 ### Acesso à API EXTERNA OMDB
-Já está inclusa uma chave de acesso à API externa dentro do arquivo, mas caso de não estar funcionando, é preciso gerar uma nova chave e alterar as chaves no arquivo [Locacao.java](/api-omdb/src/main/java/br/edu/ifpr/locadora/apirest/models/Locacao.java).
+Já está inclusa uma chave de acesso à API externa dentro do arquivo, mas caso de não estar funcionando, é preciso gerar uma nova chave e alterar as chaves no arquivo [Locacao.java](/api-omdb/src/main/java/br/edu/ifpr/locadora/apirest/models/Locacao.java) _(linhas 92 e 99)_.
 
 Para gerar novas chaves é necessário criar uma conta no site do OMDB (disponível em: http://omdbapi.com/).
 
