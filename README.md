@@ -100,11 +100,15 @@ DELETE cliente:
 ```
 Cliente recebe um id de um cliente já cadastrado em clientes, agora o
 atributo “filme” recebe uma id de um filme do IMDB. Para ver um id do imdb acesse
-o imdb.com, escolha um filme e o id é o que aparece no endereço depois do '/title/'
+o imdb.com, escolha um filme e o id é o que aparece no endereço depois do _'/title/'_
 algumas ids de filmes do IMDB Para testes:
+
 **tt0120338** : Titanic
+
 **tt2709692** : The Grinch (2018)
+
 **tt0110357** : The Lion King (1994)
+
 **tt4532826** : Robin Hood (2018)
 
 Abaixo o modelo json para PUT e DELETE (ambos sem ID na URL) é:
