@@ -24,11 +24,16 @@ interfaces dentro do pacote “repository”, e criadas as classes controladoras
 pacote “resource”, estas trabalham com as requisições HTML, como GET, POST,
 PUT e DELETE.
 
+### Acesso à API EXTERNA OMDB
+Já está inclusa uma chave de acesso à API externa dentro do arquivo, mas caso de não estar funcionando, é preciso gerar uma nova chave e alterar as chaves no arquivo [Locacao.java](/api-omdb/src/main/java/br/edu/ifpr/locadora/apirest/models/Locacao.java).
+
+Para gerar novas chaves é necessário criar uma conta no site do OMDB (disponível em: http://omdbapi.com/).
+
 # Banco de Dados
 
 Disponibilizado um script para criação de um banco de dados MySQL para testes, arquivo banco.sql, na pasta raiz.
 
-As configurações do banco de dados na aplicação ficam em: _“src/main/resources/application.properties”_.
+As configurações do banco de dados na aplicação ficam em: [application.properties](api-omdb/src/main/resources/application.properties).
 
 # Utilização
 
