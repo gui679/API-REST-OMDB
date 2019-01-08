@@ -35,11 +35,17 @@ As configurações do banco de dados na aplicação ficam em: _“src/main/resou
 ## Cliente
 
 A interface de clientes funciona no endereço:
+
 **localhost:8080/api/cliente** - aceita POST, PUT E DELETE
+
 Para adquirir uma lista com todos os clientes, o endereço é:
+
 **localhost:8080/api/clientes** - aceita somente GET
+
 Para visualizar um cliente específico por id o endereço é:
+
 **localhost:8080/api/clientes/1** - aceita GET, PUT E DELETE.
+
 (substituir 1 por id do cliente desejado)
 
 Abaixo existe um modelo json para POST e PUT (setando ID na URL) e
@@ -65,11 +71,17 @@ _(substituir valor da “id” pelo cliente desejado)_
 ## Locação
 
 A interface de locações funciona no endereço:
+
 **localhost:8080/api/locacao** - aceita POST, PUT E DELETE
+
 Para adquirir uma lista com todas as locações, o endereço é:
+
 **localhost:8080/api/locacoes** - aceita somente GET
+
 Para visualizar uma locacao específico por id o endereço é:
+
 **localhost:8080/api/locacao/1** - aceita GET, PUT E DELETE.
+
 Abaixo existe um modelo json para POST e PUT (setando ID na URL) e
 DELETE cliente:
 ```
